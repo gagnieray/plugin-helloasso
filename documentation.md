@@ -14,7 +14,7 @@ Ce plugin offre :
 
 Tout d’abord, téléchargez le plugin :
 
-[![Téléchargez la dernière version du plugin HelloAsso !](https://img.shields.io/badge/1.0.0-HelloAsso-ffb619?style=for-the-badge&logo=php&logoColor=white&label=1.0.0-rc1&color=ffb619)](https://github.com/galette-community/plugin-helloasso/releases/tag/1.0.0-rc1)
+[![Téléchargez la dernière version du plugin HelloAsso !](https://img.shields.io/badge/1.0.0-HelloAsso-ffb619?style=for-the-badge&logo=php&logoColor=white&label=1.0.0-rc2&color=ffb619)](https://github.com/galette-community/plugin-helloasso/releases/tag/1.0.0-rc2)
 
 Décompressez l'archive téléchargée dans le répertoire `plugins` de Galette. Par exemple, sous linux (en remplaçant *{url}* et *{version}* par les valeurs correspondantes):
 
@@ -48,11 +48,11 @@ Les simples visiteurs (utilisateurs *non connectés* à leur compte) peuvent uni
 
 ![Écran de l'historique des paiements](images/history.jpg)
 
-### Préférences
+## Préférences
 
 ![Écran des préférences](images/settings.jpg)
 
-#### Paramètres
+### Paramètres
 
 * **URL de callback à configurer dans Helloasso** : cette URL est à renseigner dans le champ *"Mon URL de callback"* dans la section "Intégrations et API" du compte de votre association sur HelloAsso.
 * **Activer le mode test** : pour utiliser le mode test, vous devez au préalable vous créer un compte de test sur [helloasso-sandbox.com](https://www.helloasso-sandbox.com). Vous pourrez ainsi tester le fonctionnement du plugin sans effectuer de véritables paiements en ligne.
@@ -66,7 +66,7 @@ Les simples visiteurs (utilisateurs *non connectés* à leur compte) peuvent uni
   
   *Les types de contribution dont le montant est nul, ou dont le montant n'est pas configuré, ne seront pas proposés comme motifs de paiement sur le formulaire, même ci ceux-ci ne sont pas marqués comme inactifs dans le tableau.*
 
-#### État de la connexion
+### État de la connexion
 
 Cet écran montre si le plugin est correctement paramétré et connecté à HelloAsso.
 
